@@ -15,3 +15,12 @@
   width: 100%;
   margin-bottom: 10px;
 }
+
+@media (max-width: 500px) {
+  .checkout {
+    flex-direction: column;
+  }
+  .checkout__message__noItems {
+    font-size: 14px;
+  }
+}

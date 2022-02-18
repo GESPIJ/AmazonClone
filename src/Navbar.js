@@ -32,7 +32,7 @@ function Navbar() {
         <Link to={!user && "/login"} className="header__link">
           <div onClick={login} className="header__option">
             <span className="header__optionLineOne">
-              {"Hello " + user ? user?._delegate.email : ""}
+              {"Hello " + user ? user?._delegate.email.split("@")[0] : ""}
             </span>
             <span className="header__optionLineTwo">
               {user ? "Sign out" : "Sign In"}

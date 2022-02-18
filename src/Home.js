@@ -15,7 +15,7 @@ function Home() {
           id={"1"}
           title="Rollerblade E2 110 Unisex Adult Fitness Inline Skate, Black"
           price={119.99}
-          rating={45}
+          rating={5}
           image="https://www.rollerblade.com/storage/Product/072204001A1_MACROBLADE_110_3WD_01.jpg"
           prime
           coupon={{ state: true, amount: "10" }}
@@ -26,7 +26,7 @@ function Home() {
           id={"2"}
           title="Echo Dot (3rd Gen, 2018 release) - Smart speaker with Alexa - Charcoal"
           price={39.0}
-          rating={45}
+          rating={5}
           image="https://www.powerplanetonline.com/cdnassets/amazon_echo_dot_3_gen_negro_antracita_altavoz_inteligente_alexa_01_l.jpg"
           prime
         />

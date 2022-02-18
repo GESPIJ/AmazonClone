@@ -31,6 +31,7 @@
   width: 100%;
   object-fit: contain;
   margin-bottom: 15px;
+  z-index: 1;
 }
 
 .product__icon__star {
@@ -89,13 +90,16 @@
   color: #0f1111 !important;
   font-size: 14px !important;
   line-height: 20px !important;
+  position: relative;
+  z-index: 10;
 }
 .product > button {
   /* background-color: #f0c14b; */
   padding: 8px 16px 8px;
   background-color: rgb(255, 216, 20);
+  border-radius: 8px;
   border: 1px solid;
-  border-color: #a88734 #9c7e31 #846a29;
+  border-color: rgb(255, 210, 0) rgb(255, 210, 0) rgb(255, 216, 20);
   box-shadow: 0 0.2rem 0.5rem 0 rgb(213 217 217 / 50%);
 }
 
@@ -106,5 +110,9 @@
 
   .product__info {
     font-size: 14px;
+  }
+
+  .product > img {
+    margin-top: 12px;
   }
 }
