@@ -1,0 +1,110 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  max-height: 400px;
+  min-width: 100px;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+}
+
+.product__info {
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.product__price {
+  margin-top: 5px;
+}
+
+.product__rating {
+  display: flex;
+}
+
+.product > img {
+  max-height: 200px;
+  margin-top: 12px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.product__icon__star {
+  background-image: url(https://m.media-amazon.com/images/S/sash/3-fm1Jbg4IHlyhq.png);
+  background-size: 512px 256px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 80px;
+  height: 20px;
+}
+
+.product__icon__star > span {
+  color: transparent;
+}
+
+.product__star__45 {
+  background-position: -84px -24px;
+}
+
+.product__star__4 {
+  background-position: -84px -8px;
+}
+
+.product__star__5 {
+  background-position: -166px -36px;
+}
+
+.product__primeIcon__container {
+  margin-top: 4px;
+}
+
+.product__primeIcon {
+  display: inline-block;
+  width: 53px;
+  height: 15px;
+  background-position: -185px -182px;
+  background-image: url(https://m.media-amazon.com/images/S/sash/E6vgqiIirWgGb3f.png);
+  -webkit-background-size: 512px 256px;
+  background-size: 512px 256px;
+  background-repeat: no-repeat;
+}
+
+.product__primeIcon > span {
+  color: transparent;
+}
+
+.product__coupon__1 {
+  background-color: #7fda69;
+  color: #111;
+  font-size: 14px !important;
+  line-height: 20px !important;
+}
+
+.product__coupon__2 {
+  padding-left: 4px;
+  color: #0f1111 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+}
+.product > button {
+  /* background-color: #f0c14b; */
+  padding: 8px 16px 8px;
+  background-color: rgb(255, 216, 20);
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  box-shadow: 0 0.2rem 0.5rem 0 rgb(213 217 217 / 50%);
+}
+
+@media (max-width: 540px) {
+  .product {
+    min-width: 250px;
+  }
+
+  .product__info {
+    font-size: 14px;
+  }
+}
